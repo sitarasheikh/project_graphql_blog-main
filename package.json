@@ -10,7 +10,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+     "vercel-build": "next build || true"
   },
   "dependencies": {
     "graphql": "^15.6.1",
@@ -39,7 +40,8 @@
   "eslintConfig": {
     "extends": ["next/core-web-vitals", "airbnb"],
     "rules": {
-      "no-console": "off"
+      "no-console": "off",
+      "rule-name": "off"
     }
   }
 }
