@@ -54,4 +54,3 @@ export default async function asynchandler(req, res) {
     return res.status(500).json({ error: 'Something went wrong. Please try again later.' });
   }
 }
-np

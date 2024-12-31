@@ -35,5 +35,11 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "postcss": "^8.3.8",
     "tailwindcss": "^2.2.7"
+  },
+  "eslintConfig": {
+    "extends": ["next/core-web-vitals", "airbnb"],
+    "rules": {
+      "no-console": "off"
+    }
   }
 }
